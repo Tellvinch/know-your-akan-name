@@ -1,47 +1,44 @@
- 
 .container {
-    background-color: lightblue;
-    background-repeat: no-repeat;
-    background-position: center;
-    font-family: sans-serif;
-    font-size: 30px;
-    width: 1200px;
-    padding: 2rem 1rem;
-    margin-bottom: 2rem;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 0.3rem;
-      }
-    
-
+  background-color: lightblue;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: sans-serif;
+  font-size: 30px;
+  width: 1200px;
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.3rem;
+  text-align: center;
 }
-c
+
 .container p {
-    font-size: 40px;
-    color:black;
-    margin-left:500px;
-    margin-right:50px;
-    width: 600px;
-    
+  font-size: 30px;
+  color: black;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 1100px;
+  text-align: center;
 }
 
 .container h2 {
-    text-align: center;
-    color: darkorchid;
-    font-family: -apple-system;
+  text-align: center;
+  color: darkorchid;
+  font-family: -apple-system;
+  text-align: center;
 }
 
-
 .pics {
-    display: -ms-inline-flexbox;
-    text-align: center;
+  display: -ms-inline-flexbox;
+  text-align: center;
 }
 
 .dob {
-    text-align: center;
-}  
+  text-align: center;
+}
 
 .gender {
-    text-align: center;
-    display: grid;
+  text-align: center;
+  display: grid;
 }
