@@ -1,0 +1,49 @@
+.container {
+    background-color: lightblue;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    width: 1200px;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.3rem;
+      }
+    
+
+}
+c
+.container p {
+    font-size: 40px;
+    color: khaki;
+    margin-left:500px;
+    margin-right:50px;
+    width: 600px;
+    
+}
+
+.container h2 {
+    text-align: center;
+    color: darkorchid;
+    font-family: -apple-system;
+}
+
+
+.pics {
+    display: -ms-inline-flexbox;
+    text-align: center;
+}
+
+.dob {
+    text-align: center;
+}  
+
+.gender {
+    text-align: center;
+    display: grid;
+}
+
+
+    
