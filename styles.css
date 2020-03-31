@@ -1,3 +1,4 @@
+ 
 .container {
     background-color: lightblue;
     background-repeat: no-repeat;
@@ -17,7 +18,7 @@
 c
 .container p {
     font-size: 40px;
-    color: khaki;
+    color:black;
     margin-left:500px;
     margin-right:50px;
     width: 600px;
@@ -44,6 +45,3 @@ c
     text-align: center;
     display: grid;
 }
-
-
-    
