@@ -1,50 +1,21 @@
-let objGender = {
-    male: {
-      Sunday: "Kwasi",
-      Monday: "Kwadwo",
-      Tuesday: "Kwabena",
-      Wednesday: "Kwaku",
-      Thursday: "Yaw",
-      Friday: "Kofi",
-      Saturday: "Kwame"
-    },
-    female: {
-      Sunday: "Akosua",
-      Monday: "Adwoa",
-      Tuesday: "Abenaa",
-      Wednesday: "Akua",
-      Thursday: "Yaa",
-      Friday: "Afua",
-      Saturday: "Ama"
-    }
-  };
-  
-  Object.keys(objGender).map(function(genderType) {
-    if (genderType === gender) {
-      Object.keys(objGender[genderType]).map(function(day) {
-        if (day.toLowerCase().includes(dayInput.toLowerCase())) {
-          console.log(objGender[genderType][day]);
-        }
-      });
-    }
-  });
-  function getBirthdayIput(event) {
-    //get user input date element
-    let date = new Date(document.getElementById("birthday").value).toUTCString();
-    return date.substring(0, 3);
-  
-    //pass the date to get year month day
-    //asssign a date to the relevant day of
-  }
-  function getGender() {
-    let userGender = document.getElementById("gender");
-    return userGender.value;
-  }
-  function formsubmit() {
-    event.preventDefault();
-    let day = getBirthdayIput();
-    let gender = getGender();
-    Object.keys(objGender).map();
-    return false;
-  }
-  
+var birthDate = document.getElementById("birthday").value;//gives the user date of birth
+var male = document.getElementById("male").checked; // true if user is male
+var female = document.getElementById("female").checked; //true if user is female
+var days = [
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday"
+];
+function birthDay(event) {
+  var day = newDate(birthDate).toUTCString();
+  return alert( day.substring(0, 3));}
+var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+
+
+
+

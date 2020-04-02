@@ -45,32 +45,36 @@
       </p>
       <div class="dob">
         <p>
-          Date of birth:
+     
           <form>
-            <input
-              onchange="getBirthdayInput(event)"
+            <label class="form-check-label">Date of birth:</label>     
+            <div class="form-group">
+              <input
+              onchange="getBirthdayIput(event)"
               type="date"
               id="birthday"
               name="birthday"
+              class=" form-control form-input"
             
             />
-          </form>
+            </div>
+          
+       
         </p>
       </div>
-      <div class="gender">
-        <p>
-          Choose your gender:
-          <form>
-            <select required onchange="getGender()" name="gender" id="gender">
+      <div class="form-group">
+          <label class="form-check-label"> Choose your gender:</label>   
+            <select  class="form-control form-input" required onchange="getGender()" name="gender" id="gender">
               <option value="">select gender</option>
               <option value="male">Male</option>
               <option value="female">Female</option>
-            </select>
-          </form>
-            
-        </p>
+            </select>        
+      </div>
+      <div class="form-group">
         <button type="button" class="btn btn-dark" onclick="formsubmit()">GET NAME</button>
       </div>
+  
+    </form>
       <br>
       <img
         src="images/pat2.jpg"
@@ -79,6 +83,6 @@
         height="50px"
       />
     </div>
-    <script scr="scripts.js"></script>
+    <script src="scripts.js"></script>
   </body>
 </html>
