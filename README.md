@@ -1,8 +1,8 @@
-AKAN NAMER
-#### { Gives one an Akan name }, {2nd,April,2020}
-#### By **{Tellvinch imani}**
+# AKAN NAME
+####  Gives one an Akan name , 2nd,April,2020
+#### By Tellvinch imani
 ## Description
-{ A web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.  }
+A web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.  
 ## Setup/Installation Requirements
 * follow this link
 * enter the your birthday
