@@ -18,6 +18,5 @@ Bootstrap is also helpful.
 ## Support and contact details
 For any  more information contact at tellvinchimani@gmail.com
 ### License
-<p><a href="License.md">MIT LICENSE</a></p>
- Tellvinch imani
+<p><a href="License.md">MIT LICENSE</a></p
  
