@@ -46,11 +46,29 @@
       <div class="dob">
         <p>
           Date of birth:
+          <form>
+            <input
+              onchange="getBirthdayIput(event)"
+              type="date"
+              id="birthday"
+              name="birthday"
+            
+            />
+          </form>
         </p>
       </div>
       <div class="gender">
         <p>
           Choose your gender:
+          <form>
+            <select required onchange="getGender()" name="gender" id="gender">
+              <option value="">select gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+            </form>
+            <br />
+            <button onclick="formsubmit()">GET NAME</button>
         </p>
       </div>
       <img
