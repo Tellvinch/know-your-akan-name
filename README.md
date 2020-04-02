@@ -4,7 +4,7 @@
 ## Description
 A web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.  
 ## Setup/Installation Requirements
-* follow this link
+* follow this [link](https://tellvinch.github.io/know-your-akan-name/)
 * enter the your birthday
 * enter your gender
 * click the get name button
