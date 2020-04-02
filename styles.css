@@ -42,3 +42,10 @@
   text-align: center;
   display: grid;
 }
+
+.gender button {
+  text-align: center;
+  width:140px;
+  margin-left: auto;
+  margin-right: auto;
+}
