@@ -45,12 +45,14 @@
 
 .gender button {
   text-align: center;
-  width:140px;
+  width: 140px;
   margin-left: auto;
   margin-right: auto;
 }
 
-#akan_name_revealer{
+#akan_name_revealer {
   color: blue;
 }
 
+@media all and (min-width: 480px) and (max-width: 760px) {
+}
