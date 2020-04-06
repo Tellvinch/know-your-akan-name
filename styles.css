@@ -52,7 +52,23 @@
 
 #akan_name_revealer {
   color: blue;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+#parent {
+  padding: auto;
 }
 
 @media all and (min-width: 480px) and (max-width: 760px) {
+  .container {
+    font-size: 15px;
+    width: auto;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.3rem;
+    text-align: center;
+  }
 }

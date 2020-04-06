@@ -42,8 +42,8 @@ function formsubmit() {
           //get akan revealer
           let revealElement = document.getElementById("akan_name_revealer");//get parent element
           let parentDiv = revealElement.parentNode;//create span element
-          var sp1 = document.createElement("span");//give the span elemen id
-          sp1.id = "akan_name_revealer";//create a text node for showing the name
+          var sp1 = document.createElement("span");//give the span element id
+          sp1.id = "akan_name_revealer";//create a text  for showing the name
           var t = document.createTextNode(
             `AWESOME! your Akan name is  ${objGender[genderType][day]}`
           );
